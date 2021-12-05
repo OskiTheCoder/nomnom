@@ -2,9 +2,29 @@
 
 /*Font*/
 $base-font: 'Montserrat', sans-serif;
+$font-size-md: 1.2rem;
+$font-size-lg: 2.5rem;
 $light-weight: 100;
 $medium-weight: 300;
 $heavy-weight: 600;
 
+/*Padding*/
+$padding-sm: 1rem;
+$padding-md: 2rem;
+$padding-lg: 4rem;
+$padding-xlg: 6rem;
+
+/*Margin*/
+$margin-sm: 1rem;
+$margin-md: 2rem;
+$margin-lg: 4rem;
+$margin-xlg: 6rem;
+
+/*Icon Sizing*/
+$icon-sm: 1rem;
+$icon-md: 1.5rem;
+$icon-lg: 2rem;
+
 /*Colors*/
 $dark: rgba(18, 18, 18, 0.99);
+$white: #ffffff;

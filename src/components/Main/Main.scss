@@ -1,0 +1,14 @@
+@import '../../global/variables.scss';
+
+.main-container {
+  height: 50rem;
+  display: flex;
+
+  &__header {
+    flex-basis: 60%;
+  }
+
+  &__img {
+    flex-basis: 40%;
+  }
+}

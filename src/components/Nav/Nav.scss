@@ -1,0 +1,47 @@
+@import '../../global/variables.scss';
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $padding-md;
+
+  &__title {
+    color: $white;
+    font-size: $font-size-lg;
+    letter-spacing: 2px;
+
+    &--first-three {
+      font-weight: $heavy-weight;
+    }
+
+    &--last-three {
+      font-weight: $light-weight;
+    }
+  }
+
+  &__links > * {
+    margin: 0 $margin-sm;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--login,
+    &--signup {
+      font-size: $font-size-md;
+      text-decoration: none;
+      color: $white;
+      font-weight: $heavy-weight;
+      opacity: 0.65;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+.moon {
+  font-size: $icon-md;
+}
