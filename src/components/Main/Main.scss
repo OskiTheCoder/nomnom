@@ -1,14 +1,29 @@
 @import '../../global/variables.scss';
 
 .main-container {
-  height: 50rem;
-  display: flex;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 2rem;
+  margin: $margin-sm 0;
 
   &__header {
-    flex-basis: 60%;
+    padding: $padding-md $padding-xlg;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &--heading {
+      font-size: $font-size-xlg;
+      color: $white;
+    }
+
+    &--explore-button {
+      align-self: flex-start;
+    }
   }
 
   &__img {
-    flex-basis: 40%;
   }
 }
