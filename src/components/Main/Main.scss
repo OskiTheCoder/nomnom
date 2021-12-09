@@ -15,6 +15,7 @@
     justify-content: space-between;
 
     &--heading {
+      font-weight: $heavy-weight;
       font-size: $font-size-xlg;
       color: $white;
     }
@@ -26,4 +27,29 @@
 
   &__img {
   }
+}
+
+.text-share {
+  background: linear-gradient(45deg, #b0b9c6, #36b2ff, #006bee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-upload {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-discover {
+  background: linear-gradient(45deg, #84f43f 0%, #16a085 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

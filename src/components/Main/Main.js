@@ -6,7 +6,10 @@ const Main = () => {
     <main className='main-container'>
       <div className='main-container__header'>
         <h1 className='main-container__header--heading'>
-          Finally. A modern way to share, upload, and discover new recipes.
+          Finally. A modern way to
+          <span className='text-share'> share</span>,{' '}
+          <span className='text-upload'> upload</span>, and{' '}
+          <span className='text-discover'> discover</span> new recipes.
         </h1>
         <p className='main-container__header--paragraph'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
